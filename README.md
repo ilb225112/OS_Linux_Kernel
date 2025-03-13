@@ -10,14 +10,14 @@
 
 ---
 
-## 📝 Overview  
+## Overview 
 This project consists of a **Linux Kernel Module (LKM)** and a **User-space Program** that together visualize a **process tree with dynamically allocated memory**.  
 - The kernel module prints **process hierarchy**, including **parent, child, and grandchild** processes.  
 - The user-space program creates **multiple child and grandchild processes**, allocating memory dynamically.  
 
 ---
 
-## 📜 Description  
+## Description 
 This project helps users visualize the **process tree** in Linux along with **memory allocation details**.  
 - The **kernel module** recursively fetches child processes using `task_struct`.  
 - The **user program** spawns multiple child & grandchild processes with dynamic memory allocation.  
@@ -25,7 +25,7 @@ This project helps users visualize the **process tree** in Linux along with **me
 
 ---
 
-## 🛠 How To Run:
+## How To Run 
 
 ### **Step 1:**
 **_Pre-requisites_**:
@@ -87,7 +87,7 @@ This project helps users visualize the **process tree** in Linux along with **me
     sudo rmmod my_kernel_module
     ```
 
-##  Sample Output  
+## Sample Output  
 After running the module and executing `dmesg | tail -n 23`, you should see an output similar to this:
 
 ```bash
@@ -118,21 +118,21 @@ After running the module and executing `dmesg | tail -n 23`, you should see an o
 ### Note: The actual PIDs and memory addresses will be different each time you run the program
 ---
 
-## 🔮 Future Fixes  
+## Future Fixes  
 - [ ] Improve error handling in `user.c`
 - [ ] Support dynamic parent selection without manual PID input
 - [ ] Add command-line arguments for user flexibility
 
 ---
 
-## 👨‍💻 Author & License  
+## Author & License
 **Author:** PES1UG23CS167  
 **License:** MIT
 
 ---
 
-## 🔗 References  
+## References  
 - [Linux Kernel Module Programming Guide](https://www.tldp.org/LDP/lkmpg/2.6/html/)  
 
-## 🤝 Contributing  
+## Contributing 🤝 
 Contributions are welcome! Feel free to **fork** this repo, make changes, and submit a **pull request**.  
