@@ -22,7 +22,7 @@
 *.la
 *.lo
 
-# Shared objects (inc. Windows DLLs)
+# Shared objects (including Windows DLLs)
 *.dll
 *.so
 *.so.*
@@ -50,3 +50,21 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Kernel Build Directories
+/arch/
+/include/config/
+/include/generated/
+/scripts/
+/source/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Make clean artifacts
+*.symvers
+*.order
+*.cmd
