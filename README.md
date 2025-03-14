@@ -54,6 +54,7 @@ This project helps users visualize the **process tree** in Linux along with **me
 ### **Step 2:**
   - Create a Folder
   - Create three files `user.c`,`my_kernel_module.c` and `Makefile`
+  - <u> Note: </u>**_Make sure `Makefile` has no extension it's not .txt just save it as `Makefile` with no extension_** 
   - Open the files using Text editor and paste the codes
     
 
