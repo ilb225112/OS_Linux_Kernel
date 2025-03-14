@@ -51,7 +51,7 @@ int main() {
                     exit(1);
                 }
 
-                sleep(5);  // Keep grandchild alive for kernel module detection
+                sleep(20);  // Keep grandchild alive for kernel module detection
                 free(grandchild_mem);
                 free(grandchild_pid); // Free memory before exiting
                 exit(0);
