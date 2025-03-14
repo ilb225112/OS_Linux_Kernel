@@ -29,7 +29,8 @@ This project helps users visualize the **process tree** in Linux along with **me
 
 ### **Step 1:**
 **_Pre-requisites_**:
-- **Operating System**: Ubuntu 24.04.2 LTS (used for this)
+- **Operating System**: Ubuntu 24.04.2 LTS (used for this)  <br/>
+  **_Note_**: The Code varies from one to another version
 - **Run the Command** :
   ```bash
   sudo apt update && sudo apt upgrade -y
