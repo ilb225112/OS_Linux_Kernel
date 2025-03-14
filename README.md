@@ -61,6 +61,7 @@ This project helps users visualize the **process tree** in Linux along with **me
   - In the folder _Left Click_ -> Open in Terminal
   - Click on the `+` tab at top and make sure u have two terminals side by side
   - Now let the Terminals be Terminal 1 and Terminal 2
+  - **_Note:_** Both terminal must me in same dir where the fies are saved
 
     
 ### **Step 4:** _Execute these commands in order_
@@ -76,7 +77,7 @@ This project helps users visualize the **process tree** in Linux along with **me
       -> **_Note Down the Parent process ID for example, `ABC`_**
   - Terminal 2:
     ```bash
-    sudo insmod my_kernel_module.ko parent_pid=`ABC`
+    sudo insmod my_kernel_module.ko parent_pid=ABC
     ```
     ```bash
     dmesg | tail -n 23
