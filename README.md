@@ -81,7 +81,7 @@ This project helps users visualize the **process tree** in Linux along with **me
     sudo insmod my_kernel_module.ko parent_pid=ABC
     ```
     ```bash
-    dmesg | tail -n 23
+    sudo dmesg | tail -n 23
     ```
      -> **_NOTE: Adjust 23 based on the number of relevant log lines for your system._**
     ```bash
